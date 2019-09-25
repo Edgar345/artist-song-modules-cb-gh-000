@@ -1,10 +1,6 @@
 module Memorable
   #class methods, use extend
-  def reset_all
-    self.all.clear
-  end
+  module
 
-  def count
-    self.all.count
   end
 end
