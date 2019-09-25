@@ -12,7 +12,7 @@ class Artist
   @@artists = []
 
   def initialize
-    super
+    super #call the initialize method in a base class
     @songs = []
   end
 
