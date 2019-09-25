@@ -12,6 +12,8 @@ module Memorable
 
   #instance methods
   module InstanceMethods
+    def initialize
 
+    end
   end
 end
