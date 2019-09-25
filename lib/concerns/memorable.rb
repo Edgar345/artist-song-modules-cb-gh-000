@@ -11,4 +11,7 @@ module Memorable
   end
 
   #instance methods
+  module InstanceMethods
+
+  end
 end
