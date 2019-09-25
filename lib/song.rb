@@ -3,7 +3,7 @@ require 'pry'
 class Song
   extend Memorable
   extend Findable
-  
+
   attr_accessor :name
   attr_reader :artist
 
@@ -12,7 +12,6 @@ class Song
   def initialize
     @@songs << self
   end
-
 
   def self.all
     @@songs
